@@ -16,7 +16,8 @@ export class StateExam extends Component {
                 <h3> Value = {this.state.count}</h3>
                 <button 
                     className='btn btn-success'
-                    onClick={() => this.setState({ count : this.state.count +1})}>
+                    // onClick={() => this.setState({ count : this.state.count +1})}>
+                    onClick={()=> this.setState(preState =>({ count : preState.count +1}))}>
                     Increase
                 </button>
             </div>

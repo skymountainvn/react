@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 // import { Sample } from './Components/Screen/Sample';
 // import { Word } from './Components/Shared/Word';
-// import { ListWord } from './Components/Screen/ListWord';
-import {StateExam}  from './Components/Screen/StateExample'
+import { ListWord } from './Components/Screen/ListWord';
+// import {StateExam}  from './Components/Screen/StateExample'
 
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
   //   );
   // }
   render() {
-    return <StateExam />
+    return <ListWord />
   }
 }
 
