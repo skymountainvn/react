@@ -9,7 +9,7 @@ export class Word extends Component {
     }
     render() {
         const {en, vn, isMemorized} = this.props.wordInfo;
-        const engClassName = isMemorized ? 'text-success': 'text-danger';
+        const engClassName = isMemorized ? 'text-success' : 'text-danger';
         return (
             <div> 
             <h3 className={engClassName}> 

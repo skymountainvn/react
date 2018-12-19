@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-
+import { Word } from '../Shared/Word'
 export class ListWord extends Component {
     genWord(word) {
         return (
@@ -17,7 +17,7 @@ export class ListWord extends Component {
         ]
         return (
             <div> 
-                {arr.map(this.genWord)}
+                {arr.map(word => <Word wordInfo={word} key={word._id} />)}
             </div>
         );
     }
