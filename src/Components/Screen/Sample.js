@@ -5,7 +5,7 @@ export class Sample extends Component {
         return (
             <div> 
             Sample Component
-        </div>
+            </div>
         );
     }
 }
